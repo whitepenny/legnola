@@ -1,0 +1,98 @@
+.main__container {
+    
+    @media (min-width: $phoneSize) {
+        display: flex;
+    }
+    padding-top: 6.0rem;
+    padding-bottom: 6.0rem;
+}
+
+.main__content {
+    @media (min-width: $phoneSize) {
+    width: 75%;
+    padding-right: 6%;
+    }
+}
+
+.main__sidebar {
+    text-align: center;
+    
+    @media (min-width: $phoneSize) {
+    width: 25%;   
+    }
+}
+
+.post-preview {
+    
+    margin-bottom: 4.0rem;
+}
+
+.post-preview__image {
+
+}
+
+.post-preview__content {
+    
+}
+
+.share-buttons {
+    padding: 0 30px;    
+}
+
+#jp-relatedposts .jp-relatedposts-items-visual h4.jp-relatedposts-post-title {
+    margin: 2.0rem 0 !important;
+}
+
+#jp-relatedposts .jp-relatedposts-items .jp-relatedposts-post .jp-relatedposts-post-title a {
+    font-weight: bold !important;
+}
+
+.grid-previews {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 -20px;
+    padding-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.grid-preview {
+    position: relative;
+    width: 33.3333333333%;
+    padding: 20px;
+    min-width: 300px;
+    
+    &.empty {
+        height: 0;
+    }
+    
+
+
+    &:hover {
+        .grid-preview__content {
+            display: flex;
+            opacity: 1;
+
+        }
+    }
+}
+
+.grid-preview__container {
+    position: relative;
+    display: block;
+}
+
+.grid-preview__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(28,34,43,0.63);
+    @mixin animation;
+    opacity: 0;
+}

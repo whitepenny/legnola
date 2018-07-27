@@ -1,0 +1,64 @@
+.pagination {
+
+    &:before {
+        content: '';
+        height: 1.0rem;
+        border-top: 1px solid $backgroundColor;
+        border-bottom: 1px solid $backgroundColor;
+        display: block;
+        width: 100%;
+        margin-bottom: 2.0rem;
+
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    .current {
+        height: 3.0rem;
+        min-width: 2.4rem;
+        color: #333;
+        background: #ccc;
+        display: block;
+        text-align: center;
+        
+    }
+
+    .next, .prev {
+        &:before {
+            font-family: 'FontAwesome';
+            content: '\f054';
+            font-size: .8em;
+            color: $mainColor;
+        }
+
+        &:hover {
+            background: none;
+        }
+    }
+
+    .prev {
+        &:before {
+            content: '\f053';
+        }
+    }
+
+    a {
+        display: block;
+        height: 3.0rem;
+        min-width: 2.4rem;
+        color: #333;
+        text-align: center;
+        font-weight: bold;
+
+        &:hover {
+            background: $mainColor;
+            color: #fff;
+        }
+        
+    }
+}

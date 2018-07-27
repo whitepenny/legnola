@@ -1,0 +1,154 @@
+.header__container {
+    background: $backgroundColor;
+}
+
+.header {
+    padding: 4.0rem;
+}
+.header-logo {
+    margin: 0 auto;
+    max-width: 180px;
+
+    @media (min-width: $tabletSize) {
+        margin-bottom: 4.0rem;
+    }
+}
+
+.toolbar__container {
+    border-bottom: 1px solid $borderColor;
+    padding-bottom: .5rem;
+    @mixin wide;
+    display: none;
+
+    @media (min-width: $tabletSize) {
+        display: block;
+    }
+}
+
+.toolbar {
+    border-width: 1px 0;
+    border-color: $borderColor;
+    border-style: solid;
+    align-items: center;
+    display: flex;    
+}
+
+.tagline {
+    width: 20%;
+    
+    text-align: center;
+    font-style: italic;
+    font-family: $headingFont;
+    color: $mainColor;
+    font-weight: bold;
+}
+
+.main-navigation {
+    flex: 2;
+    text-align: center;
+    border-left: 1px solid $borderColor;    
+    border-right: 1px solid $borderColor;
+    padding: .8rem;
+    
+
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    li {
+        &:after {
+            margin: 0 2.0rem;
+            content: '•';
+            color: $mainColor;
+            display: inline-block;
+        }
+    }
+
+    li:last-child {
+        &:after {
+            display: none;
+        }
+    }
+
+    a {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.4rem;
+        letter-spacing: .2rem;
+        color: $bodyColor;
+    }
+}
+
+.header-social {
+    
+    width: 20%;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+.mobile-nav-trigger {
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    line-height: 2.0rem;
+    font-size: 2.0rem;
+    padding: 10px !important;
+    display: block;
+    background: #2B2E31;
+    
+    color: $backgroundColor;
+}
+
+.header-social {
+    display: flex;
+    justify-content: center;
+    font-family: $headingFont;
+    font-style: italic;
+    font-weight: bold;
+    
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-left: 1.0rem;
+
+        li {
+            margin: 0 .7rem;
+        }
+
+        a {
+            font-size: 1.3rem;
+        }
+    }
+    
+}
+
+.mobile-navigation  {
+    &.fs-navigation-enabled {
+        background: $backgroundColor;
+        padding: 3.0rem;
+    }
+
+    li {
+        border-top: 1px solid $borderColor;
+
+        &:last-child {
+            border-bottom: 1px solid $borderColor;
+        }
+    }
+
+    a {
+        color: #333;
+        padding: .6rem 0;
+        display: block;
+        &:hover {
+            color: $mainColor;
+        }
+    }
+}

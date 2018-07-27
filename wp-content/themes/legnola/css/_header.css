@@ -1,0 +1,31 @@
+.mobile-nav-trigger {
+    display: none;
+
+    @media (min-width: $tabletSize) {
+        display: none;
+    }
+}
+
+.main-navigation {
+    display: none;
+
+    @media (min-width: $tabletSize) {
+        display: block;
+    }
+}
+
+.mobile-navigation {
+  
+  display: none;
+  outline: none;
+
+  &.fs-navigation-enabled {
+    z-index: 5;
+    display: block;
+  }
+
+}
+
+.search-toggle {
+    cursor: pointer;
+}
