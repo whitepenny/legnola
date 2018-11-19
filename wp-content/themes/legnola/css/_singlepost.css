@@ -1,19 +1,7 @@
 
 
 .single-post__heading {
-    @mixin alpha;
-    margin-bottom: 4.0rem;
-    text-align: center;
-    
-
-    &:after {
-        content: '';
-        display: block;
-        width: 150px;
-        border-bottom: 2px solid $mainColor;
-        margin: 0 auto;
-        margin-top: 2.0rem; 
-    }
+    @mixin borderedHeading;
 }
 
 .single-post__content {

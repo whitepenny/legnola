@@ -10,6 +10,14 @@
 .footer-info {
     width: 40%;
     color: #fff;
+
+    a {
+        color: #fff;
+
+        &:hover {
+            color: $borderColor;
+        }
+    }
 }
 
 .footer-logo {

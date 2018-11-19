@@ -27,7 +27,9 @@
                             <div class="grid-preview__content">
                             
                                 <h2><?php the_title(); ?></h2>
-
+                                <?php if (get_field('project_type')): ?>
+                                <h3><?php the_field('project_type'); ?></h3>
+                                <?php endif; ?>
                             </div>
                         </div>
                         </a>

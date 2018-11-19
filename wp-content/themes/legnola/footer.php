@@ -13,7 +13,7 @@
             <div class="footer-info">
                 <ul>
                     <li>419 Euclid Ave, Haddonfield, NJ 08033</li>
-                    <li>609.922.2769&nbsp;&nbsp;info@legnola.com</li>
+                    <li>609.922.2769&nbsp;&nbsp;<a href="mailto:info@legnolabuilders.com">info@legnolabuilders.com</a></li>
                 </ul>
             </div>
         

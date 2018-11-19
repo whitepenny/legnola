@@ -15,7 +15,7 @@
 }
 
 .project-testimonial__quote {
-    border-bottom: 2px solid $borderColor;
+    border-bottom: 4px double $borderColor;
     max-width: 60%;
     margin: 0 auto;
     font-family: $headingFont;

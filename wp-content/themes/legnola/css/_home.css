@@ -14,13 +14,13 @@
     text-align: center;
     margin-bottom: 6.0rem;
     max-width: 80%;
-    margin: 0 auto 6.0rem auto;
+    margin: 0 auto 8.0rem auto;
 }
 
 .content-section__content {
     flex: 0 0 500px;
     background: #fff;
-    padding: 50px;
+    padding: 50px 50px 30px 50px;
     text-align: center;
     margin-bottom: 50px;
 
@@ -38,7 +38,7 @@
         content: '';
         display: block;
         height: 50px;
-        border-bottom: 2px solid $borderColor;
+        border-bottom: 4px double $borderColor;
         width: 100%;
     }
 }
@@ -58,13 +58,13 @@
 }
 
 .content-section__cta {
-    padding: 10.0rem 0;
+    padding: 10.0rem 0 0 0;
     text-align: center;
 }
 
 .home-grid {
     background: #E9E8E4;
-    padding-top: 8.0rem;
+    padding: 8.0rem 0;
 }
 
 .home-grid__heading {

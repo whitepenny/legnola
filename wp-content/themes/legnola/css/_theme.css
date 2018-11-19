@@ -1,5 +1,6 @@
 body  {
     background: #2C3136;
+    color: $bodyColor;
 }
 
 .wrapper {
@@ -34,7 +35,7 @@ body  {
 
 @define-mixin alpha {
     font-size: 5.4rem;
-    line-height: 6.4rem;
+    line-height: 6.0rem;
 }
 
 @define-mixin bravo {
@@ -62,7 +63,7 @@ body  {
         content: '';
         display: block;
         width: 150px;
-        border-bottom: 2px solid $mainColor;
+        border-bottom: 4px double $mainColor;
         margin: 0 auto;
         margin-top: 2.0rem; 
     }

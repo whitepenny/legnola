@@ -80,6 +80,10 @@
         font-size: 1.4rem;
         letter-spacing: .2rem;
         color: $bodyColor;
+
+        &:hover {
+            color: $mainColor;
+        }
     }
 }
 
@@ -111,6 +115,7 @@
     font-family: $headingFont;
     font-style: italic;
     font-weight: bold;
+    color: #4b4f54;
     
 
     ul {
