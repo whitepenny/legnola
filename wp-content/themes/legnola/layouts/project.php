@@ -58,7 +58,9 @@
 
                         <div class="project-feature">
                             <div class="project-feature__image">
-                                <img src="<?php echo $featureThumb['url']; ?>" alt="">
+                                <a class="lightbox" href="<?php echo $featureThumb['url']; ?>">
+                                <img src="<?php echo $featureThumb['sizes']['sr-bucket']; ?>" alt="">
+                                </a>
                             </div>
 
                             <div class="project-feature__content">

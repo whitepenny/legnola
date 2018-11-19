@@ -7,6 +7,8 @@
 //=require formstone/dist/js/swap.js
 //=require formstone/dist/js/transition.js
 //=require formstone/dist/js/carousel.js
+//=require formstone/dist/js/lightbox.js
+//=require formstone/dist/js/viewer.js
 
 (function($) {
 
@@ -22,6 +24,8 @@
         'infinite': true,
         'controls': false
       });
+
+      $('.lightbox').lightbox();
     });
 
 })(jQuery);
