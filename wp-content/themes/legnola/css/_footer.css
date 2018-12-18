@@ -3,13 +3,26 @@
 }
 
 .footer-group {
-    display: flex;
+    
     align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
 }
 
 .footer-info {
-    width: 40%;
+    
     color: #fff;
+    order: 2;
+    width: 100%;
+    text-align: center;
+
+    @media (min-width: $tabletSize) {
+        width: 40%;
+        text-align: left;
+    }
+    
 
     a {
         color: #fff;
@@ -21,25 +34,40 @@
 }
 
 .footer-logo {
-    width: 20%;
+    
     text-align: center;
+    order: 1;
+    width: 100%;
+    margin-bottom: 2.0rem;
 
+    @media (min-width: $tabletSize) {
+        width: 20%;
+        order: 2;
+    }
     
 }
 
 .footer-nav {
-    width: 40%;
+    display: none;
     font-size: 1.8rem;
+    order: 2;
+    width: 40%;
+
+    @media (min-width: $tabletSize) {
+        display: block;
+    }
 
     ul {
         display: flex;
         justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     li {
         padding: 0 1.4rem;
         border: 1px double $borderColor;
         border-width: 0 1px 0 0;
+        margin: 1.0rem 0;
     }
 
     li:last-child {
@@ -60,4 +88,10 @@
     font-size: 1.2rem;
     padding: 2.0rem 0;
     color: #999;
+    text-align: center;
+    
+    @media (min-width: $tabletSize) {
+        text-align: left;
+        margin-top: 2.0rem;
+    }
 }
