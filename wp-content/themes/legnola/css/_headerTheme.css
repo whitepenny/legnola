@@ -140,20 +140,31 @@
         padding: 3.0rem;
     }
 
-    li {
-        border-top: 1px solid #999;
+    .mobile-nav {
+        li {
+            border-top: 1px solid #999;
 
-        &:last-child {
-            border-bottom: 1px solid #999;
+            &:last-child {
+                border-bottom: 1px solid #999;
+            }
+        }
+
+        a {
+            color: #fff;
+            padding: .6rem 0;
+            display: block;
+            &:hover {
+                color: $mainColor;
+            }
+        }    
+    }
+
+    .social-menu {
+        margin-left: -1.0rem;
+        li {
+            padding: 0 1.0rem;
         }
     }
 
-    a {
-        color: #fff;
-        padding: .6rem 0;
-        display: block;
-        &:hover {
-            color: $mainColor;
-        }
-    }
+    
 }
