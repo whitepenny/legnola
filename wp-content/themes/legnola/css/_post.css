@@ -60,7 +60,7 @@
 .grid-preview {
     position: relative;
     
-    padding: 40px;
+    padding: 20px 40px;
     width: 100%;
 
     @media (min-width: $phoneSize) {
@@ -72,6 +72,8 @@
     
     &.empty {
         height: 0;
+        margin: 0;
+        padding: 0;
     }
     
 
