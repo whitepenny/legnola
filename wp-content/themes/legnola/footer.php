@@ -48,7 +48,7 @@
 <?php wp_footer(); ?>
 </div>
 <div class="mobile-navigation" data-navigation-handle=".mobile_nav_handle" data-navigation-content=".nav_content">
-    <?php wp_nav_menu( array( 'theme_location' => 'main-nav', 'menu_id' => 'primary-menu' ) ); ?>
+    <?php wp_nav_menu( array( 'theme_location' => 'mobile-nav', 'menu_id' => 'primary-menu' ) ); ?>
 
 </div>
 </body>

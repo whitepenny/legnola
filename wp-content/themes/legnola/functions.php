@@ -76,7 +76,8 @@ function sr_ahoy() {
   register_nav_menus(
     array(
       'footer-links' => __( 'Footer Links', 'sr' ), 
-      'main-nav' => __( 'Main Nav', 'sr' )
+      'main-nav' => __( 'Main Nav', 'sr' ),
+      'mobile-nav' => __( 'Mobile Nav', 'sr' )
     )
   );
 } 
