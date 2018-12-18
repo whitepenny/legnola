@@ -136,20 +136,20 @@
 
 .mobile-navigation  {
     &.fs-navigation-enabled {
-        background: $backgroundColor;
+        background: #2c3136;;
         padding: 3.0rem;
     }
 
     li {
-        border-top: 1px solid $borderColor;
+        border-top: 1px solid #999;
 
         &:last-child {
-            border-bottom: 1px solid $borderColor;
+            border-bottom: 1px solid #999;
         }
     }
 
     a {
-        color: #333;
+        color: #fff;
         padding: .6rem 0;
         display: block;
         &:hover {

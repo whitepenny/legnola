@@ -150,7 +150,7 @@ $project_query = new WP_Query( array(
 
                 
                 <?php while($project_query->have_posts()) : $project_query->the_post(); ?>
-                <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'sr-bucket' );?>
+                <?php $thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'sr-single-post' );?>
                 
                     
                     <div class="grid-preview">

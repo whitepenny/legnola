@@ -10,13 +10,18 @@
 
 .project-testimonial {
     background: #fff;
-    padding: 50px;
+    
     margin-bottom: 50px;
+    padding: 50px 0;
+    @media (min-width: $phoneSize) {
+        padding: 50px;    
+    }
+    
 }
 
 .project-testimonial__quote {
     border-bottom: 4px double $borderColor;
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
     font-family: $headingFont;
     font-style: italic;

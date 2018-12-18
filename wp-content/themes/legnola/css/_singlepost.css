@@ -13,8 +13,9 @@
     max-width: 800px;
     margin: 0 auto 6.0rem auto;
     text-align: center;
-    @mixin bravo;
     font-family: $headingFont;
+    @mixin bravo;
+
 }
 
 .single-post__meta {

@@ -59,9 +59,16 @@
 
 .grid-preview {
     position: relative;
-    width: 33.3333333333%;
-    padding: 20px;
-    min-width: 300px;
+    
+    padding: 40px;
+    width: 100%;
+
+    @media (min-width: $phoneSize) {
+        width: 33.3333333333%;
+        min-width: 300px;    
+        padding: 20px;
+    }
+    
     
     &.empty {
         height: 0;
