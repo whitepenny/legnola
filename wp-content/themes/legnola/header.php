@@ -52,7 +52,7 @@
             <div class="toolbar__container">
                 <div class="toolbar">
                     <div class="tagline">
-                        Established 1971
+                        Established 1974
                     </div>
 
                     <nav id="site-navigation" class="main-navigation">
