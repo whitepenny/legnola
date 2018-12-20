@@ -18,6 +18,7 @@
           gravity: "right",
           maxWidth: "992px",
           label: false,
+          theme: '',
       });
 
       $('.slides').carousel({
