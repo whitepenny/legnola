@@ -31,7 +31,7 @@ var svgSprite = require('gulp-svg-sprites');
 
 
 var theme_dir = 'wp-content/themes/legnola/';
-var www_dir = '/Users/srevell/www/sites/legnola/htdocs';
+var www_dir = '/Users/srevell/www/sites/legnola/';
 
 var onError = function (err) {
   log.error('err');

@@ -23,7 +23,7 @@
 
       $('.slides').carousel({
         'infinite': true,
-        'controls': false,
+        'controls': true,
         
       });
 
